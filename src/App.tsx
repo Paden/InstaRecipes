@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import instacartPng from './instacart.png';
 import { FormGroup, Label, ListGroup, ListGroupItem, Row, Col, Button } from 'reactstrap';
 
 const App: React.FC = () => {
@@ -57,7 +58,7 @@ const App: React.FC = () => {
                 size="lg">
                 <span>3. Order on </span>
                 <img 
-                  src="https://www.getslice.co/wp-content/uploads/2019/06/instacart.png" 
+                  src={instacartPng} 
                   width="100" 
                   className="d-inline-block" 
                   alt="Instacart Logo"
